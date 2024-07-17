@@ -1,0 +1,13 @@
+pandas
+numpy
+seaborn
+notebook
+numpy
+scikit-learn
+matplotlib
+Flask
+dill
+Flask-Cors
+xgboost
+streamlit
+-e .
