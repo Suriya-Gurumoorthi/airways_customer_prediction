@@ -10,3 +10,4 @@ dill
 Flask-Cors
 xgboost
 streamlit
+shap

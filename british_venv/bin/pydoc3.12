@@ -1,0 +1,5 @@
+#!/Users/suriyag/Documents/end2endml/british_airways_customer_prediction/british_venv/bin/python3.12
+
+import pydoc
+if __name__ == '__main__':
+    pydoc.cli()
