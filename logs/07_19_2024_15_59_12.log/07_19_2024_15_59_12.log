@@ -1,0 +1,8 @@
+[2024-07-19 15:59:13,859] 25 root - INFO -Entered the Data Ingestion part
+[2024-07-19 15:59:18,535] 28 root - INFO -Read the dataset ad dataframe
+[2024-07-19 15:59:18,686] 31 root - INFO -Train Test split started
+[2024-07-19 15:59:18,844] 35 root - INFO -Ingestion Completed successfully
+[2024-07-19 15:59:18,891] 34 root - INFO -Read train and test data completed
+[2024-07-19 15:59:18,891] 36 root - INFO -Obtaining preprocessing object
+[2024-07-19 15:59:18,891] 111 root - INFO -Scaling and transformation completed
+[2024-07-19 15:59:18,894] 48 root - INFO -Applying preprocessing object on training dataframe and testing dataframe.

@@ -11,3 +11,4 @@ Flask-Cors
 xgboost
 streamlit
 shap
+openpyxl

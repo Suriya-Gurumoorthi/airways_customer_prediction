@@ -16,3 +16,4 @@ Requires-Dist: Flask-Cors
 Requires-Dist: xgboost
 Requires-Dist: streamlit
 Requires-Dist: shap
+Requires-Dist: openpyxl

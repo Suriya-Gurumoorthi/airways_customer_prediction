@@ -25,6 +25,7 @@ class DataIngestion:
         logging.info("Entered the Data Ingestion part")
         try:
             df = pd.read_excel('notebook/FlightPassengerData.xlsx')
+            df.drop(columns=['route'],inplace=True)
             logging.info("Read the dataset ad dataframe")
             os.makedirs(os.path.dirname(self.ingestion_config.train_data_path),exist_ok=True)
             df.to_csv(self.ingestion_config.raw_data_path,index=False,header=True)
@@ -48,3 +49,7 @@ if __name__ == '__main__':
     data_transformation = DataTransformation()
     data_transformation.initiate_data_transformation(train_data,test_data)
     train_arr,test_arr,_ = data_transformation.initiate_data_transformation(train_data,test_data)
+    logging.info("Initiating HyperParameter Tuning")
+    modeltrainer = ModelTrainer()
+    print(modeltrainer.initiate_model_training(train_arr,test_arr))
+

@@ -1,0 +1,17 @@
+[2024-07-19 16:18:01,998] 25 root - INFO -Entered the Data Ingestion part
+[2024-07-19 16:18:07,515] 29 root - INFO -Read the dataset ad dataframe
+[2024-07-19 16:18:07,752] 32 root - INFO -Train Test split started
+[2024-07-19 16:18:07,912] 36 root - INFO -Ingestion Completed successfully
+[2024-07-19 16:18:07,956] 34 root - INFO -Read train and test data completed
+[2024-07-19 16:18:07,956] 36 root - INFO -Obtaining preprocessing object
+[2024-07-19 16:18:07,956] 110 root - INFO -Scaling and transformation completed
+[2024-07-19 16:18:07,958] 48 root - INFO -Applying preprocessing object on training dataframe and testing dataframe.
+[2024-07-19 16:18:08,032] 60 root - INFO -Saved preprocessing object.
+[2024-07-19 16:18:08,079] 34 root - INFO -Read train and test data completed
+[2024-07-19 16:18:08,079] 36 root - INFO -Obtaining preprocessing object
+[2024-07-19 16:18:08,080] 110 root - INFO -Scaling and transformation completed
+[2024-07-19 16:18:08,082] 48 root - INFO -Applying preprocessing object on training dataframe and testing dataframe.
+[2024-07-19 16:18:08,155] 60 root - INFO -Saved preprocessing object.
+[2024-07-19 16:18:08,158] 52 root - INFO -Initiating HyperParameter Tuning
+[2024-07-19 16:18:08,158] 24 root - INFO -Split training and testing data
+[2024-07-19 16:19:01,617] 79 root - INFO -Best found model on both training and testing dataset

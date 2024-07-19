@@ -89,8 +89,7 @@ class DataTransformation:
             categorical_columns = [
                 'sales_channel',
                 'trip_type',
-                'flight_day',
-                'route'
+                'flight_day'
             ]
             num_pipeline = Pipeline(
                 steps=[
